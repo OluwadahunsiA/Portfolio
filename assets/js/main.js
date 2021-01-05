@@ -29,9 +29,18 @@ sr.reveal(".work__img", { interval: 200 });
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });
 
+var a;
+
 const button = document.querySelector(".bx-menu");
-const list = document.querySelector(".nav__list");
+
+const list = document.getElementById("show_hide");
 
 button.addEventListener("click", () => {
-  list.classList.toggle("show");
+  if (a == 1) {
+    list.style.marginLeft = "-165px";
+    return (a = 0);
+  } else {
+    list.style.marginLeft = "0";
+    return (a = 1);
+  }
 });

@@ -422,7 +422,6 @@ i {
   /* Contact Section */
 
   .contact__section {
-    /* margin: 10rem auto 1rem; */
     margin-top: 25rem;
     max-width: max-content;
   }
@@ -582,6 +581,40 @@ i {
     margin-right: 10px;
     margin-left: 10px;
   }
+
+  /* Added */
+  .navHead {
+    position: relative;
+  }
+
+  .nav__menu {
+    position: relative;
+    margin-right: 20px;
+  }
+
+  .nav__list {
+    left: 100px;
+    top: 45px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    height: 20vh;
+
+    transition: all 1s ease-out;
+  }
+
+  /* Show here */
+
+  .show {
+    margin-left: 0;
+    top: 60px;
+  }
+
+  .nav__toggle {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -651,6 +684,40 @@ i {
   .contact__form {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  /* Added */
+  .navHead {
+    position: relative;
+  }
+
+  .nav__menu {
+    position: relative;
+    margin-right: 20px;
+  }
+
+  .nav__list {
+    left: 100px;
+    top: 45px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    height: 20vh;
+
+    transition: all 1s ease-out;
+  }
+
+  /* Show here */
+
+  .show {
+    margin-left: 0;
+    top: 60px;
+  }
+
+  .nav__toggle {
+    display: inline-block;
   }
 }
 
@@ -724,5 +791,39 @@ i {
   .contact__form {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  /* Added */
+  .navHead {
+    position: relative;
+  }
+
+  .nav__menu {
+    position: relative;
+    margin-right: 20px;
+  }
+
+  .nav__list {
+    left: 100px;
+    top: 45px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    height: 20vh;
+
+    transition: all 1s ease-out;
+  }
+
+  /* Show here */
+
+  .show {
+    margin-left: 0;
+    top: 60px;
+  }
+
+  .nav__toggle {
+    display: inline-block;
   }
 }
